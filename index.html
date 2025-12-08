@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generative Zenith Score Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Project Requirements Document</p>
+      <h1>The Generative Zenith Score (GZS) Tool</h1>
+      <p class="subtitle">A web application that delivers an AI-ready GSO ranking score, actionable free insights, and a premium Zenith Action Plan for small business owners and SEO professionals.</p>
+      <div class="hero__actions">
+        <a class="button primary" href="#overview">View the Requirements</a>
+        <a class="button ghost" href="#deliverables">See Deliverables</a>
+      </div>
+    </div>
+    <div class="hero__badge">
+      <p class="badge__label">Core Promise</p>
+      <p class="badge__title">GSO score + paid blueprint</p>
+      <p class="badge__desc">Run a scan, capture the lead, and upsell a full plan.</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="overview" class="panel">
+      <div class="panel__header">
+        <h2>1. Project Overview &amp; Goal</h2>
+        <p>The GZS Tool calculates a Generative Zenith Score and offers an actionable, paid Zenith Action Plan. Target users: Small Business Owners and SEO Professionals.</p>
+      </div>
+    </section>
+
+    <section id="flow" class="panel">
+      <div class="panel__header">
+        <h2>2. User Flow Requirements</h2>
+        <p>High-level steps that blend on-screen guidance with transactional touchpoints.</p>
+      </div>
+      <div class="card">
+        <div class="card__title">From scan to paid blueprint</div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Step</th>
+                <th>User Action</th>
+                <th>System Action</th>
+                <th>Required Information</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2.1 Initial Scan</td>
+                <td>User inputs URL and clicks <strong>Check GSO</strong>.</td>
+                <td>Simultaneously starts GZS scan and competitive analysis.</td>
+                <td>URL</td>
+              </tr>
+              <tr>
+                <td>2.2 Lead Capture Gate</td>
+                <td>Prompted to fill out the form before results display.</td>
+                <td>Capture and validate lead data.</td>
+                <td>Email, Phone Number, Business Name, Industry/Niche, Target Location, GSO Expectation</td>
+              </tr>
+              <tr>
+                <td>2.3 Display Free Report</td>
+                <td>Views the on-screen <strong>Zenith Action Report</strong>.</td>
+                <td>Sends detailed hybrid Email + SMS link.</td>
+                <td>N/A</td>
+              </tr>
+              <tr>
+                <td>2.4 Premium Purchase</td>
+                <td>Clicks the link from email/SMS and completes payment.</td>
+                <td>Authenticates payment and unlocks Zenith Action Plan PDF/report.</td>
+                <td>Payment Information</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="score" class="panel">
+      <div class="panel__header">
+        <h2>3. The Generative Zenith Score (GZS) Calculation</h2>
+        <p>Aggregate score out of 100 built from weighted sub-scores.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="stat">
+          <h3>Authority &amp; Content Depth</h3>
+          <p class="stat__weight">35%</p>
+          <p>E-E-A-T signals, content completeness, and structure for AI synthesis.</p>
+        </div>
+        <div class="stat">
+          <h3>Intent &amp; Answer Efficiency</h3>
+          <p class="stat__weight">35%</p>
+          <p>Measures how quickly and directly the page answers high-value user queries.</p>
+        </div>
+        <div class="stat">
+          <h3>Trust, Speed, &amp; Technical Health</h3>
+          <p class="stat__weight">30%</p>
+          <p>Core Web Vitals, security posture, and foundational technical SEO.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="deliverables" class="panel">
+      <div class="panel__header">
+        <h2>4. Free Deliverable: On-Screen Zenith Action Report</h2>
+        <p>Immediate insights displayed in three distinct zones.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card highlight">
+          <div class="card__title">Zone 1: Overview</div>
+          <p><strong>Focus:</strong> High-Level Status</p>
+          <ul>
+            <li>Overall GZS (e.g., 72/100)</li>
+            <li>Sub-score grades (A–F)</li>
+            <li>Personalized Generative Summary paragraph</li>
+          </ul>
+          <p class="tag">Source: Report Card (Idea 2)</p>
+        </div>
+        <div class="card highlight">
+          <div class="card__title">Zone 2: Immediate Fixes</div>
+          <p><strong>Focus:</strong> Quick Wins / Urgency</p>
+          <ul>
+            <li>Top 3 Critical Action Items</li>
+            <li>Examples: Missing Local Schema, Slowest Page $X$</li>
+          </ul>
+          <p class="tag">Source: Fix-It-Fast (Idea 1)</p>
+        </div>
+        <div class="card highlight">
+          <div class="card__title">Zone 3: Strategic Planning</div>
+          <p><strong>Focus:</strong> Prioritized roadmap</p>
+          <p class="small">Simplified table with 3–5 recommendations categorized by Impact (High/Medium) and Difficulty (Low/Medium).</p>
+          <p class="tag">Source: Opportunity Matrix (Idea 3)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="premium" class="panel">
+      <div class="panel__header">
+        <h2>5. Premium Deliverable: Zenith Action Plan</h2>
+        <p>Unlocked after payment and packed with proprietary checks and competitive intelligence.</p>
+      </div>
+
+      <div class="card">
+        <div class="card__title">5.1 Gated Proprietary Checks</div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>GZS Sub-Score</th>
+                <th>Proprietary Check</th>
+                <th>Required Data Output</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Authority</td>
+                <td>Semantic Velocity Score</td>
+                <td>Current score, benchmarks, and URLs/claims needing validation.</td>
+              </tr>
+              <tr>
+                <td>Authority</td>
+                <td>Generative Citation Structure Check</td>
+                <td>Specific facts/data points needing micro-formatting.</td>
+              </tr>
+              <tr>
+                <td>Authority</td>
+                <td>Author Trust &amp; Entity Confirmation</td>
+                <td>SameAs links or schema fields missing on author profiles.</td>
+              </tr>
+              <tr>
+                <td>Intent</td>
+                <td>Question-to-Schema Alignment</td>
+                <td>H2 tags missing corresponding HowTo or FAQPage schema.</td>
+              </tr>
+              <tr>
+                <td>Intent</td>
+                <td>Semantic Topic Density Analysis</td>
+                <td>3–5 missing semantic entities/concepts per key page.</td>
+              </tr>
+              <tr>
+                <td>Intent</td>
+                <td>Ambiguity Score Check</td>
+                <td>3–5 ambiguous phrases and suggested replacements.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="grid grid-2">
+        <div class="card">
+          <div class="card__title">5.2 Premium Competitive &amp; Technical Data</div>
+          <ul class="bullets">
+            <li><strong>Generative Share of Voice (G-SOV) Comparison:</strong> Chart comparing G-SOV vs. 3 anonymous competitors for top topics.</li>
+            <li><strong>Prompt Alignment Efficiency (PAE) Gap Analysis:</strong> Table of top 5 missed conversational queries, competitor PAE, and current PAE.</li>
+            <li><strong>Generative Bot Traffic &amp; Crawl Blockers:</strong> Prioritized technical errors with line-of-code specificity (e.g., file + line number).</li>
+            <li><strong>Multimodal Content Performance Index (MCPI) Check:</strong> Transcript status and VideoObject schema for top 5 media assets.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card__title">6. Conversion Messaging (Email/SMS)</div>
+          <ul class="bullets">
+            <li><strong>SMS:</strong> Deliver link to the email report URL.</li>
+            <li><strong>Email Structure:</strong> Free summary first, followed by gated access section.</li>
+            <li><strong>Gated Section Subject:</strong> LOCKED: Your Competitor's GSO Blueprint Revealed.</li>
+            <li><strong>Gated Section Hook:</strong> "Your free report shows the What, but the Zenith Action Plan contains the secret How. See the line-by-line technical code fixes your competitors are deploying, the exact queries you are missing, and the specific schema errors holding you back. Unlock the full, specific blueprint for only $XX."</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <p class="eyebrow">Next steps</p>
+      <p>Hand this PRD to your development team to implement the GZS scan, lead capture, and premium upsell flows.</p>
+    </div>
+    <div class="footer__cta">
+      <a class="button primary" href="#flow">Review the Flow</a>
+      <a class="button ghost" href="#premium">Unlock the Plan</a>
+    </div>
+  </footer>
+</body>
+</html>
